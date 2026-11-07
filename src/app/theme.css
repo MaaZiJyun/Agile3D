@@ -1,0 +1,53 @@
+/* Palette adapted from o-ui/src/tokens.css. */
+:root {
+  color-scheme: light;
+  --o-color-canvas: #f4f4f5;
+  --o-color-surface: #ffffff;
+  --o-color-surface-subtle: #fafafa;
+  --o-color-surface-muted: #f4f4f5;
+  --o-color-text: #18181b;
+  --o-color-text-muted: #71717a;
+  --o-color-border: #e4e4e7;
+  --o-color-border-strong: #a1a1aa;
+  --o-color-accent: #18181b;
+  --o-color-accent-contrast: #ffffff;
+  --o-color-info: #7575ff;
+  --o-color-success-text: #087f70;
+  --o-color-danger: #b93838;
+  --o-color-danger-soft: #fff1f1;
+  --o-color-selection: #4eeaf6;
+  --o-color-selection-soft: #adf3f8;
+  --o-focus-ring: 0 0 0 3px rgb(161 161 170 / 0.35);
+  --o-shadow-md: 0 10px 24px rgb(0 0 0 / 0.06);
+  --o-color-strawberry-light: #fcbaba;
+  --o-color-strawberry-dark: #ff6b6b;
+  --o-color-mint-light: #92f1e4;
+  --o-color-mint-dark: #12e6c8;
+  --o-color-blueberry-light: #bebefc;
+  --o-color-blueberry-dark: #7575ff;
+  --o-color-charcoal-dark: #18181b;
+  /* Shared by world axes, transform gizmos, and the orientation widget. */
+  --axis-x: var(--o-color-strawberry-dark);
+  --axis-y: var(--o-color-mint-dark);
+  --axis-z: var(--o-color-blueberry-dark);
+  --axis-active: var(--o-color-selection);
+}
+[data-o-theme="dark"] {
+  color-scheme: dark;
+  --o-color-canvas: #09090b;
+  --o-color-surface: #09090b;
+  --o-color-surface-subtle: #18181b;
+  --o-color-surface-muted: #27272a;
+  --o-color-text: #fafafa;
+  --o-color-text-muted: #a1a1aa;
+  --o-color-border: #27272a;
+  --o-color-border-strong: #71717a;
+  --o-color-accent: #fafafa;
+  --o-color-accent-contrast: #18181b;
+  --o-color-success-text: #12e6c8;
+  --o-color-danger: #ff6b6b;
+  --o-color-danger-soft: #301b20;
+  --o-color-selection-soft: #153c40;
+  --o-focus-ring: 0 0 0 3px rgb(113 113 122 / 0.55);
+  --o-shadow-md: 0 10px 24px rgb(0 0 0 / 0.2);
+}

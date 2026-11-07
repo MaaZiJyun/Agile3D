@@ -1,26 +1,121 @@
 @import "tailwindcss";
+@import "./theme.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--o-color-text);
+  background: var(--o-color-canvas);
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html, body, #app, #scene { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+button, input { font: inherit; }
+canvas { display: block; }
+.glass { background: var(--o-color-surface); border: 1px solid var(--o-color-border); box-shadow: var(--o-shadow-md);  }
+button { color: inherit; background: var(--o-color-surface-muted); border: 1px solid var(--o-color-border); border-radius: 8px; padding: 8px 12px; cursor: pointer; transition: background 150ms, border-color 150ms, color 150ms; }
+button:hover { background: var(--o-color-surface-muted); border-color: var(--o-color-border-strong); }
+button:disabled { cursor: not-allowed; opacity: .35; transform: none; }
+button:disabled:hover { background: var(--o-color-surface-muted); transform: none; }
+#tooltip { position: fixed; z-index: 8; transform: translate(12px, 12px); pointer-events: none; opacity: 0; padding: 7px 9px; border-radius: 8px; font-size: 11px; background: var(--o-color-surface); border: 1px solid var(--o-color-border); transition: opacity .1s ease; }
+.scene-sidebar { position: fixed; z-index: 6; top: 44px; bottom: 12px; left: 12px; display: flex; width: 260px; min-height: 260px; flex-direction: column; padding: 12px; border-radius: 10px; }
+.scene-sidebar.hidden { display: none; }
+.editor-panel { position: fixed; z-index: 6; top: 44px; right: 12px; width: 270px; max-height: calc(100vh - 56px); overflow-y: auto; padding: 12px; border-radius: 10px; }
+.editor-panel.hidden { display: none; }
+.editor-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 13px; }
+.editor-heading span { color: var(--o-color-text-muted); font-size: 10px; }
+.editor-data-status { display: flex; justify-content: space-between; margin-top: 8px; color: var(--o-color-text-muted); font-size: 10px; }
+.editor-data-status span { color: var(--o-color-success-text); }
+.editor-add-menu { position: relative; width: 100%; max-height: 240px; overflow-y: auto; padding: 7px; border: 1px solid var(--o-color-border); border-radius: 11px; background: var(--o-color-surface); box-shadow: none; }
+.editor-add-menu[hidden] { display: none; }
+.editor-add-category + .editor-add-category { margin-top: 7px; padding-top: 7px; border-top: 1px solid var(--o-color-border); }
+.editor-add-category-title { margin: 2px 5px 5px; color: var(--o-color-text-muted); font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.editor-add-option { display: block; width: 100%; padding: 7px 8px; color: var(--o-color-text-muted); background: transparent; border: 0; border-radius: 6px; font-size: 10px; text-align: left; transform: none; }
+.editor-add-option:hover { color: var(--o-color-text); background: var(--o-color-border); transform: none; }
+.scene-hierarchy { min-height: 100px; flex: 1; overflow-y: auto; margin-top: 10px; padding: 4px; border-radius: 8px; background: var(--o-color-surface-subtle); }
+.scene-hierarchy-row { display: flex; width: 100%; min-height: 27px; align-items: center; color: var(--o-color-text-muted); border-radius: 5px; font-size: 10px; }
+.scene-hierarchy-row:hover { color: var(--o-color-text); background: var(--o-color-border); }
+.scene-hierarchy-row.object-hidden { opacity: .46; }
+.scene-hierarchy-row button { color: inherit; background: transparent; border: 0; border-radius: 5px; font-size: 10px; transform: none; }
+.scene-hierarchy-row button:hover { color: var(--o-color-text); background: var(--o-color-border); transform: none; }
+.scene-group-toggle, .scene-group-spacer { display: inline-flex; width: 24px; flex: 0 0 24px; align-items: center; justify-content: center; padding: 5px 2px; }
+.scene-group-spacer::after { content: '·'; color: var(--o-color-border-strong); }
+.scene-object-select { min-width: 0; flex: 1; overflow: hidden; padding: 5px 4px; cursor: grab; text-align: left; text-overflow: ellipsis; white-space: nowrap; }
+.scene-object-select:active { cursor: grabbing; }
+.scene-object-visibility { width: 28px; flex: 0 0 28px; padding: 5px 4px; text-align: center; }
+.scene-hierarchy .scene-root-row { position: sticky; z-index: 1; top: 0; padding: 6px 8px; color: var(--o-color-text-muted); background: var(--o-color-surface-subtle); }
+.scene-hierarchy-row.dragging { opacity: .25; }
+.scene-hierarchy-row.drop-target { color: var(--o-color-accent-contrast); background: var(--o-color-accent); outline: 1px solid var(--o-color-selection); opacity: 1; }
+.editor-name { width: 100%; margin: 0; padding: 5px 6px; color: var(--o-color-text); background: transparent; border: 1px solid transparent; border-radius: 5px; font-size: 14px; font-weight: 650; text-overflow: ellipsis; }
+.editor-name:hover, .editor-name:focus { background: var(--o-color-surface-muted); border-color: var(--o-color-border); }
+.editor-section-title { margin-top: 13px; color: var(--o-color-text-muted); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
+.editor-vector-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 6px; }
+.editor-vector-grid label, .editor-appearance label { color: var(--o-color-text-muted); font-size: 10px; }
+.editor-vector-grid input, .editor-appearance input[type="number"] { width: 100%; margin-top: 3px; padding: 6px; color: var(--o-color-text); background: var(--o-color-surface-muted); border: 1px solid var(--o-color-border); border-radius: 7px; }
+.editor-appearance { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-top: 6px; }
+.editor-appearance input[type="color"] { display: block; width: 100%; height: 31px; margin-top: 3px; padding: 2px; background: var(--o-color-surface-muted); border: 1px solid var(--o-color-border); border-radius: 7px; }
+canvas.editing { cursor: crosshair; }
+@media (max-width: 760px) {
+  .scene-sidebar { top: 44px; right: 12px; bottom: auto; width: auto; height: 30vh; min-height: 120px; }
+  .editor-panel { top: calc(56px + 30vh); right: 12px; width: calc(100% - 24px); max-height: calc(70vh - 68px); }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: Arial, Helvetica, sans-serif;
-  --font-mono: Consolas, monospace;
+/* Shared interaction states follow o-ui's neutral controls and salt selection. */
+button:focus-visible, input:focus-visible {
+  outline: none;
+  box-shadow: var(--o-focus-ring);
+  border-color: var(--o-color-border-strong);
+}
+.scene-hierarchy-row.active { color: var(--o-color-text); background: var(--o-color-selection-soft); box-shadow: inset 2px 0 var(--o-color-selection); }
+.scene-hierarchy-row.drop-target { color: #18181b; background: var(--o-color-selection); }
+input:disabled { opacity: .5; cursor: not-allowed; }
+.scene-hierarchy, .editor-panel, .editor-add-menu { scrollbar-width: thin; scrollbar-color: var(--o-color-border-strong) transparent; }
+
+
+/* Compact application menus leave the canvas available for modeling. */
+.menu-bar { position: fixed; z-index: 30; inset: 0 0 auto; height: 34px; display: flex; align-items: stretch; padding: 0 6px; background: var(--o-color-surface); border-bottom: 1px solid var(--o-color-border); font-size: 12px; }
+.menu-group { position: relative; display: flex; }
+.menu-bar [data-menu-trigger] { padding: 0 12px; border: 0; border-radius: 0; background: transparent; font-weight: 500; }
+.menu-bar [data-menu-trigger]:hover, .menu-bar [data-menu-trigger][aria-expanded="true"] { background: var(--o-color-surface-muted); }
+.menu-dropdown { position: fixed; top: 34px; left: 8px; width: min(290px, calc(100vw - 16px)); max-height: calc(100dvh - 42px); overflow-y: auto; padding: 5px; background: var(--o-color-surface); border: 1px solid var(--o-color-border); border-radius: 0 0 8px 8px; box-shadow: var(--o-shadow-md); }
+.menu-dropdown[hidden] { display: none; }
+.menu-dropdown > button, .menu-check { position: relative; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 31px; margin: 0; padding: 6px 9px 6px 28px; border: 0; border-radius: 4px; color: var(--o-color-text); background: transparent; font-size: 12px; text-align: left; cursor: pointer; white-space: nowrap; }
+.menu-dropdown > button:hover:not(:disabled), .menu-check:hover, .menu-check:focus-within { background: var(--o-color-surface-muted); }
+.menu-dropdown > button:focus-visible { background: var(--o-color-surface-muted); box-shadow: inset 0 0 0 1px var(--o-color-border-strong); }
+.menu-shortcut { margin-left: auto; color: var(--o-color-text-muted); font-size: 10px; }
+.menu-dropdown [aria-checked="true"]::before { content: '✓'; position: absolute; left: 9px; color: var(--o-color-text); }
+.menu-check input { position: absolute; left: 7px; width: 13px; height: 13px; margin: 0; accent-color: var(--o-color-accent); }
+.menu-separator { height: 1px; margin: 5px 4px; background: var(--o-color-border); }
+.menu-dropdown > .menu-danger { color: var(--o-color-danger); }
+.menu-dropdown > .menu-danger:hover:not(:disabled) { background: var(--o-color-danger-soft); }
+.menu-dropdown .editor-add-menu { margin: 3px 0; border-radius: 5px; background: var(--o-color-surface-subtle); }
+@media (max-width: 400px) { .menu-bar { padding: 0; } .menu-bar [data-menu-trigger] { padding: 0 9px; } }
+
+.editor-data-status { gap: 8px; }
+#projectFileName { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#projectDataStatus { flex-shrink: 0; }
+@media (max-width: 760px) {
+  .scene-sidebar.hidden ~ .editor-panel { top: 44px; max-height: calc(100vh - 56px); }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.editor-mode-tags { display: flex; gap: 3px; margin-top: 12px; padding: 3px; border: 1px solid var(--o-color-border); border-radius: 8px; background: var(--o-color-surface-muted); }
+.editor-mode-tags button { flex: 1; padding: 6px 8px; border: 1px solid transparent; border-radius: 5px; background: transparent; color: var(--o-color-text-muted); font-size: 11px; }
+.editor-mode-tags button:hover { color: var(--o-color-text); background: var(--o-color-surface); }
+.editor-mode-tags button.active { color: var(--o-color-text); background: var(--o-color-surface); border-color: var(--o-color-border); box-shadow: 0 1px 2px rgb(0 0 0 / .05); }
+
+/* Camera-synchronized world axes; the endpoints use the same view commands as View. */
+.orientation-widget { position: fixed; z-index: 7; right: 12px; bottom: 12px; width: 112px; height: 112px; border-radius: 12px; background: transparent; user-select: none; }
+.orientation-widget svg { position: absolute; inset: 0; width: 112px; height: 112px; pointer-events: none; overflow: visible; }
+.orientation-widget line { stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.orientation-origin { fill: var(--o-color-text-muted); }
+.orientation-x { --orientation-color: var(--axis-x); color: var(--orientation-color); }
+.orientation-y { --orientation-color: var(--axis-y); color: var(--orientation-color); }
+.orientation-z { --orientation-color: var(--axis-z); color: var(--orientation-color); }
+.orientation-widget button { position: absolute; left: 56px; top: 56px; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; padding: 0; transform: translate(-50%, -50%); color: var(--o-color-charcoal-dark); border: 1.5px solid var(--orientation-color); border-radius: 50%; background: color-mix(in srgb, var(--orientation-color) 45%, white); font-size: 11px; font-weight: 700; touch-action: manipulation; }
+.orientation-widget button.axis-behind { opacity: .75; }
+.orientation-widget button:hover, .orientation-widget button:focus-visible { color: var(--o-color-charcoal-dark); background: var(--orientation-color); border-color: var(--orientation-color); opacity: 1; box-shadow: 0 0 0 3px color-mix(in srgb, var(--orientation-color) 25%, transparent); }
+.editor-panel { max-height: calc(100dvh - 180px); }
+@media (max-width: 760px) {
+  .editor-panel { max-height: calc(70dvh - 192px); }
+  .scene-sidebar.hidden ~ .editor-panel { max-height: calc(100dvh - 180px); }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}

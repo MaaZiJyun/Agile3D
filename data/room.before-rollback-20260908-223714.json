@@ -1,0 +1,5127 @@
+{
+  "version": 2,
+  "unit": 0.02,
+  "positionUnit": 0.01,
+  "updatedAt": "2026-09-08T14:37:14.370Z",
+  "objects": [
+    {
+      "id": "room-floor",
+      "name": "room-floor",
+      "type": "box",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          4,
+          6
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        200,
+        3,
+        155
+      ],
+      "material": {
+        "color": "#5b3d2e",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "left-wall",
+      "name": "left-wall",
+      "type": "box",
+      "visible": true,
+      "transform": {
+        "position": [
+          -210,
+          110,
+          6
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        10,
+        110,
+        155
+      ],
+      "material": {
+        "color": "#e8e1d7",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "right-wall",
+      "name": "right-wall",
+      "type": "box",
+      "visible": true,
+      "transform": {
+        "position": [
+          210,
+          110,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        10,
+        110,
+        154
+      ],
+      "material": {
+        "color": "#e8e1d7",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "back-wall",
+      "name": "back-wall",
+      "type": "box",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          110,
+          -160
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        220,
+        110,
+        10
+      ],
+      "material": {
+        "color": "#e8e1d7",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "tatami-layout",
+      "name": "tatami-layout",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          16,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "tatami-left",
+          "name": "tatami-left",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "tatami-left-center",
+              "name": "tatami-left-center",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                36,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#c8b985",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-left-edge-front",
+              "name": "tatami-left-edge-front",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-left-edge-back",
+              "name": "tatami-left-edge-back",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-left-edge-left",
+              "name": "tatami-left-edge-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-left-edge-right",
+              "name": "tatami-left-edge-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "tatami-front",
+          "name": "tatami-front",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              40,
+              0,
+              120
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "tatami-front-center",
+              "name": "tatami-front-center",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                36,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#c8b985",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-front-edge-front",
+              "name": "tatami-front-edge-front",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-front-edge-back",
+              "name": "tatami-front-edge-back",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-front-edge-left",
+              "name": "tatami-front-edge-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-front-edge-right",
+              "name": "tatami-front-edge-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "tatami-back",
+          "name": "tatami-back",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              120,
+              0,
+              -40
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "tatami-back-center",
+              "name": "tatami-back-center",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                36,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#c8b985",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-back-edge-front",
+              "name": "tatami-back-edge-front",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-back-edge-back",
+              "name": "tatami-back-edge-back",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-back-edge-left",
+              "name": "tatami-back-edge-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-back-edge-right",
+              "name": "tatami-back-edge-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "tatami-right",
+          "name": "tatami-right",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              160,
+              0,
+              80
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "tatami-right-center",
+              "name": "tatami-right-center",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                36,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#c8b985",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-right-edge-front",
+              "name": "tatami-right-edge-front",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-right-edge-back",
+              "name": "tatami-right-edge-back",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -78
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-right-edge-left",
+              "name": "tatami-right-edge-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-right-edge-right",
+              "name": "tatami-right-edge-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                76
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "tatami-center",
+          "name": "tatami-center",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              80,
+              0,
+              40
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "tatami-center-center",
+              "name": "tatami-center-center",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                36,
+                10,
+                36
+              ],
+              "material": {
+                "color": "#c8b985",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-center-edge-front",
+              "name": "tatami-center-edge-front",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  38
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-center-edge-back",
+              "name": "tatami-center-edge-back",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -38
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                40,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-center-edge-left",
+              "name": "tatami-center-edge-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                36
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "tatami-center-edge-right",
+              "name": "tatami-center-edge-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  38,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                10,
+                36
+              ],
+              "material": {
+                "color": "#4f3425",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closet",
+      "name": "closet",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          80,
+          110,
+          -120
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "closet-bottom",
+          "name": "closet-bottom-board",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              -94,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            120,
+            10,
+            40
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-top",
+          "name": "closet-top-board",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              108,
+              6
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            120,
+            3,
+            35
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-post-left",
+          "name": "closet-post-left",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              -114,
+              10,
+              6
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            5,
+            95,
+            35
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-post-center",
+          "name": "closet-post-center",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              36,
+              10,
+              6
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            5,
+            95,
+            35
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-post-right",
+          "name": "closet-post-right",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              116,
+              10,
+              6
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            5,
+            95,
+            35
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-back-panel",
+          "name": "closet-back-panel",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              10,
+              -38
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            120,
+            95,
+            3
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "closet-door-left",
+          "name": "closet-door-left",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -76,
+              -10,
+              34
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "closet-door-left-panel",
+              "name": "closet-door-left-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                30,
+                70,
+                2
+              ],
+              "material": {
+                "color": "#fff0e6",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-left-frame-top",
+              "name": "closet-door-left-frame-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  72,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-left-frame-bottom",
+              "name": "closet-door-left-frame-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -72,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-left-frame-left",
+              "name": "closet-door-left-frame-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                70,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-left-frame-right",
+              "name": "closet-door-left-frame-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                70,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "closet-door-right",
+          "name": "closet-door-right",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -4,
+              -10,
+              38
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "closet-door-right-panel",
+              "name": "closet-door-right-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                30,
+                70,
+                2
+              ],
+              "material": {
+                "color": "#fff0e6",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-right-frame-top",
+              "name": "closet-door-right-frame-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  72,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-right-frame-bottom",
+              "name": "closet-door-right-frame-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -72,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-right-frame-left",
+              "name": "closet-door-right-frame-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                70,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-door-right-frame-right",
+              "name": "closet-door-right-frame-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                70,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "closet-overhead-left",
+          "name": "closet-overhead-left",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -4,
+              86,
+              39
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "closet-overhead-left-panel",
+              "name": "closet-overhead-left-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                30,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-left-frame-top",
+              "name": "closet-overhead-left-frame-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  12,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-left-frame-bottom",
+              "name": "closet-overhead-left-frame-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -12,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-left-frame-left",
+              "name": "closet-overhead-left-frame-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                10,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-left-frame-right",
+              "name": "closet-overhead-left-frame-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                10,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "closet-overhead-right",
+          "name": "closet-overhead-right",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -74,
+              86,
+              34
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "closet-overhead-right-panel",
+              "name": "closet-overhead-right-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                30,
+                10,
+                2
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-right-frame-top",
+              "name": "closet-overhead-right-frame-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  12,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-right-frame-bottom",
+              "name": "closet-overhead-right-frame-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -12,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                35,
+                3,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-right-frame-left",
+              "name": "closet-overhead-right-frame-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                10,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "closet-overhead-right-frame-right",
+              "name": "closet-overhead-right-frame-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  32,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                3,
+                10,
+                3
+              ],
+              "material": {
+                "color": "#d6ac7c",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "box-1788865460163-1",
+          "name": "closet-middle-board",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              -40,
+              67,
+              6
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            80,
+            3,
+            35
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "shoji",
+      "name": "shoji-divider",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          -50,
+          116,
+          6
+        ],
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "shoji-1",
+          "name": "shoji-leaf-1",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -100,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "shoji-1-panel",
+              "name": "shoji-leaf-1-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                106,
+                3
+              ],
+              "material": {
+                "color": "#f1eee5",
+                "emissiveIntensity": 0,
+                "opacity": 0.95
+              }
+            },
+            {
+              "id": "shoji-1-back-top",
+              "name": "shoji-leaf-1-back-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-bottom",
+              "name": "shoji-leaf-1-back-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-left",
+              "name": "shoji-leaf-1-back-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-right",
+              "name": "shoji-leaf-1-back-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-vertical-1",
+              "name": "shoji-leaf-1-back-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-vertical-2",
+              "name": "shoji-leaf-1-back-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-vertical-3",
+              "name": "shoji-leaf-1-back-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-vertical-4",
+              "name": "shoji-leaf-1-back-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-horizontal-1",
+              "name": "shoji-leaf-1-back-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-horizontal-2",
+              "name": "shoji-leaf-1-back-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-horizontal-3",
+              "name": "shoji-leaf-1-back-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-horizontal-4",
+              "name": "shoji-leaf-1-back-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-back-horizontal-5",
+              "name": "shoji-leaf-1-back-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-top",
+              "name": "shoji-leaf-1-front-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-bottom",
+              "name": "shoji-leaf-1-front-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-left",
+              "name": "shoji-leaf-1-front-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-right",
+              "name": "shoji-leaf-1-front-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-vertical-1",
+              "name": "shoji-leaf-1-front-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-vertical-2",
+              "name": "shoji-leaf-1-front-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-vertical-3",
+              "name": "shoji-leaf-1-front-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-vertical-4",
+              "name": "shoji-leaf-1-front-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-horizontal-1",
+              "name": "shoji-leaf-1-front-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-horizontal-2",
+              "name": "shoji-leaf-1-front-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-horizontal-3",
+              "name": "shoji-leaf-1-front-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-horizontal-4",
+              "name": "shoji-leaf-1-front-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-1-front-horizontal-5",
+              "name": "shoji-leaf-1-front-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "shoji-2",
+          "name": "shoji-leaf-2",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -100,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "shoji-2-panel",
+              "name": "shoji-leaf-2-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                106,
+                3
+              ],
+              "material": {
+                "color": "#f1eee5",
+                "emissiveIntensity": 0,
+                "opacity": 0.95
+              }
+            },
+            {
+              "id": "shoji-2-back-top",
+              "name": "shoji-leaf-2-back-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-bottom",
+              "name": "shoji-leaf-2-back-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-left",
+              "name": "shoji-leaf-2-back-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-right",
+              "name": "shoji-leaf-2-back-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-vertical-1",
+              "name": "shoji-leaf-2-back-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-vertical-2",
+              "name": "shoji-leaf-2-back-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-vertical-3",
+              "name": "shoji-leaf-2-back-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-vertical-4",
+              "name": "shoji-leaf-2-back-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-horizontal-1",
+              "name": "shoji-leaf-2-back-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-horizontal-2",
+              "name": "shoji-leaf-2-back-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-horizontal-3",
+              "name": "shoji-leaf-2-back-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-horizontal-4",
+              "name": "shoji-leaf-2-back-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-back-horizontal-5",
+              "name": "shoji-leaf-2-back-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-top",
+              "name": "shoji-leaf-2-front-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-bottom",
+              "name": "shoji-leaf-2-front-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-left",
+              "name": "shoji-leaf-2-front-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-right",
+              "name": "shoji-leaf-2-front-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-vertical-1",
+              "name": "shoji-leaf-2-front-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-vertical-2",
+              "name": "shoji-leaf-2-front-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-vertical-3",
+              "name": "shoji-leaf-2-front-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-vertical-4",
+              "name": "shoji-leaf-2-front-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-horizontal-1",
+              "name": "shoji-leaf-2-front-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-horizontal-2",
+              "name": "shoji-leaf-2-front-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-horizontal-3",
+              "name": "shoji-leaf-2-front-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-horizontal-4",
+              "name": "shoji-leaf-2-front-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-2-front-horizontal-5",
+              "name": "shoji-leaf-2-front-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "shoji-3",
+          "name": "shoji-leaf-3",
+          "type": "group",
+          "visible": true,
+          "transform": {
+            "position": [
+              -100,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "id": "shoji-3-panel",
+              "name": "shoji-leaf-3-panel",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                106,
+                3
+              ],
+              "material": {
+                "color": "#f1eee5",
+                "emissiveIntensity": 0,
+                "opacity": 0.95
+              }
+            },
+            {
+              "id": "shoji-3-back-top",
+              "name": "shoji-leaf-3-back-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-bottom",
+              "name": "shoji-leaf-3-back-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-left",
+              "name": "shoji-leaf-3-back-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-right",
+              "name": "shoji-leaf-3-back-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-vertical-1",
+              "name": "shoji-leaf-3-back-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-vertical-2",
+              "name": "shoji-leaf-3-back-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-vertical-3",
+              "name": "shoji-leaf-3-back-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-vertical-4",
+              "name": "shoji-leaf-3-back-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-horizontal-1",
+              "name": "shoji-leaf-3-back-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-horizontal-2",
+              "name": "shoji-leaf-3-back-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-horizontal-3",
+              "name": "shoji-leaf-3-back-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-horizontal-4",
+              "name": "shoji-leaf-3-back-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-back-horizontal-5",
+              "name": "shoji-leaf-3-back-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  -4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-top",
+              "name": "shoji-leaf-3-front-top",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  104,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-bottom",
+              "name": "shoji-leaf-3-front-bottom",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -102,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                50,
+                2,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-left",
+              "name": "shoji-leaf-3-front-left",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-right",
+              "name": "shoji-leaf-3-front-right",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  48,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                2,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#6f472e",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-vertical-1",
+              "name": "shoji-leaf-3-front-vertical-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -28,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-vertical-2",
+              "name": "shoji-leaf-3-front-vertical-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  -10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-vertical-3",
+              "name": "shoji-leaf-3-front-vertical-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  10,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-vertical-4",
+              "name": "shoji-leaf-3-front-vertical-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  30,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                1,
+                101,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-horizontal-1",
+              "name": "shoji-leaf-3-front-horizontal-1",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-horizontal-2",
+              "name": "shoji-leaf-3-front-horizontal-2",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  -34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-horizontal-3",
+              "name": "shoji-leaf-3-front-horizontal-3",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-horizontal-4",
+              "name": "shoji-leaf-3-front-horizontal-4",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  34,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "id": "shoji-3-front-horizontal-5",
+              "name": "shoji-leaf-3-front-horizontal-5",
+              "type": "box",
+              "visible": true,
+              "transform": {
+                "position": [
+                  0,
+                  68,
+                  4
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "dimensions": [
+                46,
+                1,
+                1
+              ],
+              "material": {
+                "color": "#b78352",
+                "emissiveIntensity": 0,
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "shoji-top-rail",
+          "name": "shoji-top-rail",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              108,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            150,
+            3,
+            5
+          ],
+          "material": {
+            "color": "#6f472e",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        },
+        {
+          "id": "shoji-bottom-rail",
+          "name": "shoji-bottom-rail",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              -108,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            150,
+            3,
+            5
+          ],
+          "material": {
+            "color": "#6f472e",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "back-beam",
+      "name": "back-beam",
+      "type": "box",
+      "visible": false,
+      "transform": {
+        "position": [
+          -122,
+          216,
+          -144
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        68,
+        5,
+        5
+      ],
+      "material": {
+        "color": "#d6ac7c",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "left-beam",
+      "name": "left-ceiling-beam",
+      "type": "box",
+      "visible": false,
+      "transform": {
+        "position": [
+          -194,
+          216,
+          6
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        5,
+        5,
+        155
+      ],
+      "material": {
+        "color": "#d6ac7c",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "right-beam",
+      "name": "right-ceiling-beam",
+      "type": "box",
+      "visible": false,
+      "transform": {
+        "position": [
+          196,
+          216,
+          38
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        5,
+        5,
+        120
+      ],
+      "material": {
+        "color": "#d6ac7c",
+        "emissiveIntensity": 0,
+        "opacity": 1
+      }
+    },
+    {
+      "id": "cabinet",
+      "name": "cabinet",
+      "type": "group",
+      "visible": false,
+      "transform": {
+        "position": [
+          -128,
+          46,
+          130
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "cabinet-body",
+          "name": "cabinet-body",
+          "type": "box",
+          "visible": true,
+          "transform": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            72,
+            40,
+            30
+          ],
+          "material": {
+            "color": "#d6ac7c",
+            "emissiveIntensity": 0,
+            "opacity": 1
+          }
+        }
+      ]
+    }
+  ]
+}

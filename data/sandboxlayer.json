@@ -1,0 +1,4220 @@
+{
+  "version": 3,
+  "unit": 0.02,
+  "positionUnit": 0.02,
+  "updatedAt": "2026-09-12T05:36:10.775Z",
+  "modules": [
+    {
+      "id": "R1",
+      "category": "Rubble",
+      "name": "Irregular rubble",
+      "recommendedSizeMm": {
+        "minimum": 20,
+        "maximum": 60
+      },
+      "recommendedQuantity": [
+        150,
+        170
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Ground fill and loose collapse material",
+      "template": {
+        "id": "template-r1",
+        "name": "R1 irregular rubble",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          40,
+          20,
+          40
+        ],
+        "material": {
+          "color": "#94999a",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "concrete",
+          "textureSeed": 101
+        },
+        "shape": {
+          "seed": 1101,
+          "roughness": 0.38,
+          "form": "chunk"
+        }
+      }
+    },
+    {
+      "id": "B1",
+      "category": "Brick",
+      "name": "Complete red brick",
+      "recommendedSizeMm": {
+        "length": 45,
+        "width": 22,
+        "height": 15
+      },
+      "recommendedQuantity": [
+        15,
+        25
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Recognizable architectural debris",
+      "template": {
+        "id": "template-b1",
+        "name": "B1 complete red brick",
+        "type": "box",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          45,
+          15,
+          22
+        ],
+        "material": {
+          "color": "#9b5f4b",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "brick",
+          "textureSeed": 102
+        }
+      }
+    },
+    {
+      "id": "B2",
+      "category": "Brick",
+      "name": "Broken red brick",
+      "recommendedSizeMm": {
+        "lengthMinimum": 20,
+        "lengthMaximum": 40,
+        "widthMinimum": 15,
+        "widthMaximum": 25,
+        "heightMinimum": 10,
+        "heightMaximum": 20
+      },
+      "recommendedQuantity": [
+        20,
+        30
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Loose collapsed brick fill",
+      "template": {
+        "id": "template-b2",
+        "name": "B2 broken red brick",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          36,
+          15,
+          20
+        ],
+        "material": {
+          "color": "#9b5f4b",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "brick",
+          "textureSeed": 103
+        },
+        "shape": {
+          "seed": 1103,
+          "roughness": 0.42,
+          "form": "chunk"
+        }
+      }
+    },
+    {
+      "id": "C1",
+      "category": "Concrete",
+      "name": "Large fractured floor slab",
+      "recommendedSizeMm": {
+        "length": 320,
+        "width": 150,
+        "height": 45
+      },
+      "recommendedQuantity": [
+        2,
+        2
+      ],
+      "layers": [
+        "L1",
+        "L3"
+      ],
+      "purpose": "Large obstruction and cavity roof",
+      "template": {
+        "id": "template-c1",
+        "name": "C1 large fractured floor slab",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          320,
+          45,
+          150
+        ],
+        "material": {
+          "color": "#a8acad",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "concrete",
+          "textureSeed": 104
+        },
+        "shape": {
+          "seed": 1104,
+          "roughness": 0.34,
+          "form": "slab"
+        }
+      }
+    },
+    {
+      "id": "C2",
+      "category": "Concrete",
+      "name": "Medium fractured floor slab",
+      "recommendedSizeMm": {
+        "length": 250,
+        "width": 120,
+        "height": 45
+      },
+      "recommendedQuantity": [
+        3,
+        4
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Inclined obstacle and collapsed structure",
+      "template": {
+        "id": "template-c2",
+        "name": "C2 medium fractured floor slab",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          250,
+          45,
+          120
+        ],
+        "material": {
+          "color": "#94999a",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "concrete",
+          "textureSeed": 105
+        },
+        "shape": {
+          "seed": 1105,
+          "roughness": 0.36,
+          "form": "slab"
+        }
+      }
+    },
+    {
+      "id": "C3",
+      "category": "Concrete",
+      "name": "Fractured concrete wall",
+      "recommendedSizeMm": {
+        "length": 250,
+        "width": 80,
+        "height": 100
+      },
+      "recommendedQuantity": [
+        3,
+        4
+      ],
+      "layers": [
+        "L1",
+        "L2"
+      ],
+      "purpose": "Upright wall and narrow crack formation",
+      "template": {
+        "id": "template-c3",
+        "name": "C3 fractured concrete wall",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          250,
+          100,
+          80
+        ],
+        "material": {
+          "color": "#94999a",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "concrete",
+          "textureSeed": 106
+        },
+        "shape": {
+          "seed": 1106,
+          "roughness": 0.35,
+          "form": "slab"
+        }
+      }
+    },
+    {
+      "id": "C4",
+      "category": "Concrete",
+      "name": "Irregular concrete block",
+      "recommendedSizeMm": {
+        "length": 150,
+        "width": 100,
+        "height": 60
+      },
+      "recommendedQuantity": [
+        6,
+        10
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Blockage, support and collapsed terrain",
+      "template": {
+        "id": "template-c4",
+        "name": "C4 irregular concrete block",
+        "type": "irregular",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          150,
+          60,
+          100
+        ],
+        "material": {
+          "color": "#72787a",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "concrete",
+          "textureSeed": 107
+        },
+        "shape": {
+          "seed": 1107,
+          "roughness": 0.41,
+          "form": "chunk"
+        }
+      }
+    },
+    {
+      "id": "S1",
+      "category": "Rebar",
+      "name": "Simulated reinforcing bar",
+      "recommendedSizeMm": {
+        "diameter": 4,
+        "length": 150
+      },
+      "recommendedQuantity": [
+        20,
+        30
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Rotatable and scalable reinforcement obstacle",
+      "template": {
+        "id": "template-s1",
+        "name": "S1 reinforcing bar",
+        "type": "tube",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          20,
+          20,
+          20
+        ],
+        "material": {
+          "color": "#5c4d44",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "rust",
+          "textureSeed": 108
+        },
+        "tube": {
+          "radiusScale": 0.2
+        },
+        "path": [
+          [
+            -80,
+            0,
+            0
+          ],
+          [
+            -40,
+            0,
+            10
+          ],
+          [
+            0,
+            10,
+            -10
+          ],
+          [
+            40,
+            0,
+            10
+          ],
+          [
+            70,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "P1",
+      "category": "Pipe",
+      "name": "Straight pipe",
+      "recommendedSizeMm": {
+        "innerDiameter": 48,
+        "length": 150,
+        "outerDiameter": 60
+      },
+      "recommendedQuantity": [
+        4,
+        6
+      ],
+      "layers": [
+        "L2"
+      ],
+      "purpose": "Primary pipe route",
+      "template": {
+        "id": "template-p1",
+        "name": "P1 straight hollow pipe",
+        "type": "pipe",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          60,
+          60,
+          160
+        ],
+        "material": {
+          "color": "#b9c1c5",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 109
+        },
+        "pipe": {
+          "innerDiameterMm": 48,
+          "wallThicknessMm": 6
+        },
+        "path": [
+          [
+            -70,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "category": "Pipe",
+      "name": "90 degree elbow",
+      "recommendedSizeMm": {
+        "innerDiameter": 48,
+        "bend": 90,
+        "outerDiameter": 60
+      },
+      "recommendedQuantity": [
+        2,
+        4
+      ],
+      "layers": [
+        "L2"
+      ],
+      "purpose": "Pipe route direction change",
+      "template": {
+        "id": "template-p2",
+        "name": "P2 hollow 90 degree elbow",
+        "type": "pipe",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          140,
+          60,
+          140
+        ],
+        "material": {
+          "color": "#b9c1c5",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 110
+        },
+        "pipe": {
+          "innerDiameterMm": 48,
+          "wallThicknessMm": 6
+        },
+        "path": [
+          [
+            -80,
+            0,
+            0
+          ],
+          [
+            -40,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20
+          ],
+          [
+            20,
+            0,
+            60
+          ],
+          [
+            20,
+            0,
+            100
+          ]
+        ]
+      }
+    },
+    {
+      "id": "P3",
+      "category": "Pipe",
+      "name": "T junction",
+      "recommendedSizeMm": {
+        "innerDiameter": 48,
+        "branches": 3,
+        "outerDiameter": 60
+      },
+      "recommendedQuantity": [
+        1,
+        2
+      ],
+      "layers": [
+        "L2"
+      ],
+      "purpose": "Pipe branch and route decision node",
+      "template": {
+        "id": "template-p3",
+        "name": "P3 hollow T junction",
+        "type": "group",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "template-p3-main",
+            "name": "P3 main pipe",
+            "type": "pipe",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              60,
+              60,
+              160
+            ],
+            "material": {
+              "color": "#b9c1c5",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "metal",
+              "textureSeed": 111
+            },
+            "pipe": {
+              "innerDiameterMm": 48,
+              "wallThicknessMm": 6
+            },
+            "path": [
+              [
+                -80,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                80,
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "template-p3-branch",
+            "name": "P3 branch pipe",
+            "type": "pipe",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              60,
+              60,
+              60
+            ],
+            "material": {
+              "color": "#b9c1c5",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "metal",
+              "textureSeed": 112
+            },
+            "pipe": {
+              "innerDiameterMm": 48,
+              "wallThicknessMm": 6
+            },
+            "path": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                80
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "P4",
+      "category": "Pipe",
+      "name": "Transparent straight pipe",
+      "recommendedSizeMm": {
+        "innerDiameter": 50,
+        "lengthMinimum": 150,
+        "lengthMaximum": 200,
+        "outerDiameter": 60
+      },
+      "recommendedQuantity": [
+        1,
+        2
+      ],
+      "layers": [
+        "L2"
+      ],
+      "purpose": "Internal observation and recording segment",
+      "template": {
+        "id": "template-p4",
+        "name": "P4 transparent observation pipe",
+        "type": "pipe",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          60,
+          60,
+          200
+        ],
+        "material": {
+          "color": "#d9f2f7",
+          "emissiveIntensity": 0,
+          "opacity": 0.16,
+          "surface": "glass",
+          "textureSeed": 113
+        },
+        "pipe": {
+          "innerDiameterMm": 50,
+          "wallThicknessMm": 5
+        },
+        "path": [
+          [
+            -100,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "P5",
+      "category": "Pipe",
+      "name": "Vertical connection pipe",
+      "recommendedSizeMm": {
+        "innerDiameter": 48,
+        "lengthMinimum": 100,
+        "lengthMaximum": 150,
+        "outerDiameter": 60
+      },
+      "recommendedQuantity": [
+        2,
+        2
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "L1 to L2 and L2 to L3 connection",
+      "template": {
+        "id": "template-p5",
+        "name": "P5 vertical hollow connector",
+        "type": "pipe",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          60,
+          160,
+          60
+        ],
+        "material": {
+          "color": "#b9c1c5",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 114
+        },
+        "pipe": {
+          "innerDiameterMm": 48,
+          "wallThicknessMm": 6
+        },
+        "path": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            60,
+            0
+          ],
+          [
+            0,
+            120,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "V1",
+      "category": "Void",
+      "name": "Low visibility cavity",
+      "recommendedSizeMm": {
+        "length": 300,
+        "width": 220,
+        "height": 120
+      },
+      "recommendedQuantity": [
+        1,
+        1
+      ],
+      "layers": [
+        "L3"
+      ],
+      "purpose": "Deep enclosed search space",
+      "template": {
+        "id": "template-v1",
+        "name": "V1 low visibility cavity",
+        "type": "group",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "template-v1-floor",
+            "name": "V1 dark cavity floor",
+            "type": "box",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                10,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              300,
+              3,
+              220
+            ],
+            "material": {
+              "color": "#101314",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "plain",
+              "textureSeed": 115
+            }
+          },
+          {
+            "id": "template-v1-west",
+            "name": "V1 west collapsed wall",
+            "type": "irregular",
+            "visible": true,
+            "transform": {
+              "position": [
+                -120,
+                60,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              60,
+              100,
+              200
+            ],
+            "material": {
+              "color": "#72787a",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "concrete",
+              "textureSeed": 116
+            },
+            "shape": {
+              "seed": 1116,
+              "roughness": 0.42,
+              "form": "chunk"
+            }
+          },
+          {
+            "id": "template-v1-east",
+            "name": "V1 east collapsed wall",
+            "type": "irregular",
+            "visible": true,
+            "transform": {
+              "position": [
+                120,
+                60,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              60,
+              100,
+              200
+            ],
+            "material": {
+              "color": "#72787a",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "concrete",
+              "textureSeed": 117
+            },
+            "shape": {
+              "seed": 1117,
+              "roughness": 0.42,
+              "form": "chunk"
+            }
+          },
+          {
+            "id": "template-v1-back",
+            "name": "V1 rear collapsed wall",
+            "type": "irregular",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                60,
+                -90
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              240,
+              100,
+              60
+            ],
+            "material": {
+              "color": "#72787a",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "concrete",
+              "textureSeed": 118
+            },
+            "shape": {
+              "seed": 1118,
+              "roughness": 0.42,
+              "form": "chunk"
+            }
+          },
+          {
+            "id": "template-v1-roof",
+            "name": "V1 partial concrete roof",
+            "type": "irregular",
+            "visible": true,
+            "transform": {
+              "position": [
+                -50,
+                110,
+                -20
+              ],
+              "rotation": [
+                2,
+                -8,
+                -3
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              160,
+              20,
+              120
+            ],
+            "material": {
+              "color": "#94999a",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "concrete",
+              "textureSeed": 119
+            },
+            "shape": {
+              "seed": 1119,
+              "roughness": 0.36,
+              "form": "slab"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "LED-G",
+      "category": "Marker",
+      "name": "Green LED start marker",
+      "recommendedSizeMm": {
+        "baseDiameter": 30,
+        "heightMinimum": 20,
+        "heightMaximum": 30
+      },
+      "recommendedQuantity": [
+        1,
+        1
+      ],
+      "layers": [
+        "L1"
+      ],
+      "purpose": "Start Zone marker",
+      "template": {
+        "id": "template-led-g",
+        "name": "LED-G start marker",
+        "type": "group",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "template-led-g-base",
+            "name": "LED-G base",
+            "type": "cylinder",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              30,
+              20,
+              30
+            ],
+            "material": {
+              "color": "#3f474b",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "metal",
+              "textureSeed": 120
+            }
+          },
+          {
+            "id": "template-led-g-lens",
+            "name": "LED-G glowing lens",
+            "type": "sphere",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                20,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              13,
+              17,
+              13
+            ],
+            "material": {
+              "color": "#46ff72",
+              "emissiveIntensity": 3.2,
+              "opacity": 0.95,
+              "surface": "plain",
+              "textureSeed": 121
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "LED-R",
+      "category": "Marker",
+      "name": "Red LED survivor marker",
+      "recommendedSizeMm": {
+        "baseDiameter": 30,
+        "heightMinimum": 20,
+        "heightMaximum": 30
+      },
+      "recommendedQuantity": [
+        1,
+        1
+      ],
+      "layers": [
+        "L3"
+      ],
+      "purpose": "Survivor Target marker",
+      "template": {
+        "id": "template-led-r",
+        "name": "LED-R survivor marker",
+        "type": "group",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "template-led-r-base",
+            "name": "LED-R base",
+            "type": "cylinder",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              30,
+              20,
+              30
+            ],
+            "material": {
+              "color": "#3f474b",
+              "emissiveIntensity": 0,
+              "opacity": 1,
+              "surface": "metal",
+              "textureSeed": 122
+            }
+          },
+          {
+            "id": "template-led-r-lens",
+            "name": "LED-R glowing lens",
+            "type": "sphere",
+            "visible": true,
+            "transform": {
+              "position": [
+                0,
+                20,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "dimensions": [
+              13,
+              17,
+              13
+            ],
+            "material": {
+              "color": "#ff3d37",
+              "emissiveIntensity": 3.2,
+              "opacity": 0.95,
+              "surface": "plain",
+              "textureSeed": 123
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "F1",
+      "category": "Frame",
+      "name": "Long perimeter frame",
+      "recommendedSizeMm": {
+        "length": 800
+      },
+      "recommendedQuantity": [
+        6,
+        6
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Long side of each layer frame",
+      "template": {
+        "id": "template-f1",
+        "name": "F1 long steel frame",
+        "type": "box",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          800,
+          40,
+          20
+        ],
+        "material": {
+          "color": "#3f474b",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 124
+        }
+      }
+    },
+    {
+      "id": "F2",
+      "category": "Frame",
+      "name": "Short perimeter frame",
+      "recommendedSizeMm": {
+        "length": 500
+      },
+      "recommendedQuantity": [
+        6,
+        6
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Short side of each layer frame",
+      "template": {
+        "id": "template-f2",
+        "name": "F2 short steel frame",
+        "type": "box",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          20,
+          40,
+          500
+        ],
+        "material": {
+          "color": "#3f474b",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 125
+        }
+      }
+    },
+    {
+      "id": "F3",
+      "category": "Frame",
+      "name": "Interlayer support post",
+      "recommendedSizeMm": {
+        "heightMinimum": 100,
+        "heightMaximum": 150
+      },
+      "recommendedQuantity": [
+        8,
+        12
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Support between stacked layers",
+      "template": {
+        "id": "template-f3",
+        "name": "F3 interlayer post",
+        "type": "box",
+        "visible": true,
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          40,
+          140,
+          40
+        ],
+        "material": {
+          "color": "#3f474b",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 126
+        }
+      }
+    },
+    {
+      "id": "F4",
+      "category": "Panel",
+      "name": "10 mm load-bearing plastic base panel",
+      "recommendedSizeMm": {
+        "length": 800,
+        "width": 500,
+        "thickness": 10
+      },
+      "recommendedQuantity": [
+        3,
+        3
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Terrain foundation for each layer",
+      "template": {
+        "id": "template-f4",
+        "name": "F4 800 × 500 × 10 mm base panel",
+        "type": "box",
+        "visible": true,
+        "moduleId": "F4",
+        "transform": {
+          "position": [
+            0,
+            10,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          800,
+          10,
+          500
+        ],
+        "material": {
+          "color": "#343a3d",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "plain",
+          "textureSeed": 127
+        }
+      }
+    },
+    {
+      "id": "F5",
+      "category": "Panel",
+      "name": "10 mm transparent acrylic side panel",
+      "recommendedSizeMm": {
+        "length": 500,
+        "height": 200,
+        "thickness": 10
+      },
+      "recommendedQuantity": [
+        0,
+        6
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Observation wall and containment",
+      "template": {
+        "id": "template-f5",
+        "name": "F5 500 × 200 × 10 mm acrylic panel",
+        "type": "box",
+        "visible": true,
+        "moduleId": "F5",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          10,
+          200,
+          500
+        ],
+        "material": {
+          "color": "#d8f2f8",
+          "emissiveIntensity": 0,
+          "opacity": 0.22,
+          "surface": "acrylic",
+          "textureSeed": 128
+        }
+      }
+    },
+    {
+      "id": "A1",
+      "category": "Frame",
+      "name": "30 × 30 mm slotted aluminum extrusion",
+      "recommendedSizeMm": {
+        "width": 30,
+        "height": 30,
+        "referenceLength": 500,
+        "slotWidth": 10
+      },
+      "recommendedQuantity": [
+        16,
+        16
+      ],
+      "layers": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "purpose": "Sandbox upper frame, lower frame, posts, and base supports",
+      "template": {
+        "id": "template-a1",
+        "name": "A1 30 × 30 × 500 mm aluminum extrusion",
+        "type": "aluminumExtrusion",
+        "visible": true,
+        "moduleId": "A1",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "dimensions": [
+          30,
+          30,
+          500
+        ],
+        "material": {
+          "color": "#c7cdd0",
+          "emissiveIntensity": 0,
+          "opacity": 1,
+          "surface": "metal",
+          "textureSeed": 130
+        }
+      }
+    }
+  ],
+  "objects": [
+    {
+      "id": "group-1789186959162-28",
+      "name": "side-U8-group",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "u8CombinationProfile-copy-1789186718572-25-1",
+          "name": "u8CombinationProfile-16 copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              14,
+              0
+            ],
+            "rotation": [
+              -180,
+              1.139368398154631e-14,
+              180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186653641-24-1",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              86,
+              -220
+            ],
+            "rotation": [
+              -90.00000000000001,
+              1.5902773407317584e-14,
+              180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186818501-26-1",
+          "name": "u8CombinationProfile-16 copy copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              157,
+              0
+            ],
+            "rotation": [
+              -180,
+              -9.726523135321193e-15,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186875670-27-1",
+          "name": "u8CombinationProfile-16 copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              86,
+              221
+            ],
+            "rotation": [
+              -90.00000000000001,
+              1.2722218725854067e-14,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789187126964-30-1",
+      "name": "side-U8-group copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          180,
+          -7.016709298534876e-15,
+          180
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "u8CombinationProfile-copy-1789187126964-30-2",
+          "name": "u8CombinationProfile-16 copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              14,
+              0
+            ],
+            "rotation": [
+              -180,
+              1.139368398154631e-14,
+              180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187126964-30-3",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              86,
+              -220
+            ],
+            "rotation": [
+              -90.00000000000001,
+              1.5902773407317584e-14,
+              180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187126964-30-4",
+          "name": "u8CombinationProfile-16 copy copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              157,
+              0
+            ],
+            "rotation": [
+              -180,
+              -9.726523135321193e-15,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187126964-30-5",
+          "name": "u8CombinationProfile-16 copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              385,
+              86,
+              221
+            ],
+            "rotation": [
+              -90.00000000000001,
+              1.2722218725854067e-14,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-1789187146078-31",
+      "name": "front-u8-group",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "u8CombinationProfile-copy-1789186229271-19-1",
+          "name": "u8CombinationProfile-16 copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              156,
+              -235
+            ],
+            "rotation": [
+              -179.99999999999994,
+              -90,
+              0
+            ],
+            "scale": [
+              1.0000000000000002,
+              1.0000000000000004,
+              1.0000000000000002
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186300982-20-1",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              -371,
+              86,
+              -235
+            ],
+            "rotation": [
+              -89.99999999999999,
+              0,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-1789185247013-16",
+          "name": "u8CombinationProfile-16",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              14,
+              -235
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789185779671-17-1",
+          "name": "u8CombinationProfile-16 copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              370,
+              86,
+              -235
+            ],
+            "rotation": [
+              -89.99999999999997,
+              1.2722218725854067e-14,
+              89.99999999999997
+            ],
+            "scale": [
+              0.9999999999999998,
+              0.9999999999999998,
+              0.9999999999999998
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789187198602-32-1",
+      "name": "front-u8-group copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          180,
+          -7.016709298534876e-15,
+          180
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "u8CombinationProfile-copy-1789187198602-32-2",
+          "name": "u8CombinationProfile-16 copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              156,
+              -235
+            ],
+            "rotation": [
+              -179.99999999999994,
+              -90,
+              0
+            ],
+            "scale": [
+              1.0000000000000002,
+              1.0000000000000004,
+              1.0000000000000002
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187198602-32-3",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              -371,
+              86,
+              -235
+            ],
+            "rotation": [
+              -89.99999999999999,
+              0,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187198602-32-4",
+          "name": "u8CombinationProfile-16",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              14,
+              -235
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789187198602-32-5",
+          "name": "u8CombinationProfile-16 copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              370,
+              86,
+              -235
+            ],
+            "rotation": [
+              -89.99999999999997,
+              1.2722218725854067e-14,
+              89.99999999999997
+            ],
+            "scale": [
+              0.9999999999999998,
+              0.9999999999999998,
+              0.9999999999999998
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            140
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-1789187222380-33",
+      "name": "bottom-u8-group",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "u8CombinationProfile-copy-1789185866072-18-1",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              370,
+              0,
+              0
+            ],
+            "rotation": [
+              -180,
+              8.995967132789892e-15,
+              90.00000000000001
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186474667-21-1",
+          "name": "u8CombinationProfile-16 copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              0,
+              -221
+            ],
+            "rotation": [
+              89.99999999999999,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186518883-22-1",
+          "name": "u8CombinationProfile-16 copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              0,
+              0,
+              221
+            ],
+            "rotation": [
+              -89.99999999999996,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            740
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "u8CombinationProfile-copy-1789186559934-23-1",
+          "name": "u8CombinationProfile-16 copy copy copy",
+          "type": "u8CombinationProfile",
+          "visible": true,
+          "transform": {
+            "position": [
+              -371,
+              0,
+              0
+            ],
+            "rotation": [
+              -6.459239728231688e-15,
+              0,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            12,
+            10,
+            440
+          ],
+          "material": {
+            "color": "#212121",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f4-1789187276330-34-1",
+      "name": "3 mm, 760 * 460 aluminum base panel",
+      "type": "box",
+      "visible": true,
+      "moduleId": "F4",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        760,
+        3,
+        460
+      ],
+      "material": {
+        "color": "#343a3d",
+        "emissiveIntensity": 0,
+        "opacity": 1,
+        "surface": "plain",
+        "textureSeed": 127
+      }
+    },
+    {
+      "id": "f5-1789187480333-35-1",
+      "name": "3 mm, 160 * 460 transparent acrylic side panel",
+      "type": "box",
+      "visible": true,
+      "moduleId": "F5",
+      "transform": {
+        "position": [
+          384,
+          85,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        3,
+        160,
+        460
+      ],
+      "material": {
+        "color": "#d8f2f8",
+        "emissiveIntensity": 0,
+        "opacity": 0.22,
+        "surface": "acrylic",
+        "textureSeed": 128
+      }
+    },
+    {
+      "id": "box-copy-1789187589723-36-1",
+      "name": "3 mm, 160 * 460 transparent acrylic side panel",
+      "type": "box",
+      "visible": true,
+      "moduleId": "F5",
+      "transform": {
+        "position": [
+          -384,
+          85,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        3,
+        160,
+        460
+      ],
+      "material": {
+        "color": "#d8f2f8",
+        "emissiveIntensity": 0,
+        "opacity": 0.22,
+        "surface": "acrylic",
+        "textureSeed": 128
+      }
+    },
+    {
+      "id": "box-copy-1789187694903-37-1",
+      "name": "3 mm, 160 * 760 transparent acrylic panel",
+      "type": "box",
+      "visible": true,
+      "moduleId": "F5",
+      "transform": {
+        "position": [
+          0,
+          85,
+          236
+        ],
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        3,
+        160,
+        760
+      ],
+      "material": {
+        "color": "#d8f2f8",
+        "emissiveIntensity": 0,
+        "opacity": 0.22,
+        "surface": "acrylic",
+        "textureSeed": 128
+      }
+    },
+    {
+      "id": "box-copy-1789187770652-38-1",
+      "name": "3 mm, 160 * 760 transparent acrylic panel",
+      "type": "box",
+      "visible": true,
+      "moduleId": "F5",
+      "transform": {
+        "position": [
+          0,
+          85,
+          -236
+        ],
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions": [
+        3,
+        160,
+        760
+      ],
+      "material": {
+        "color": "#d8f2f8",
+        "emissiveIntensity": 0,
+        "opacity": 0.22,
+        "surface": "acrylic",
+        "textureSeed": 128
+      }
+    },
+    {
+      "id": "group-copy-1789185069622-15-1",
+      "name": "L-con-grp copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          150,
+          171,
+          151
+        ],
+        "rotation": [
+          180,
+          90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789185069622-15-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789185069622-15-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789185069622-15-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789185021274-14-1",
+      "name": "L-con-grp copy copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789185021274-14-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789185021274-14-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789185021274-14-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789184962158-13-1",
+      "name": "L-con-grp copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          -151,
+          171,
+          -149
+        ],
+        "rotation": [
+          180,
+          -90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789184962158-13-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184962158-13-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184962158-13-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789184820200-12-1",
+      "name": "L-con-grp copy copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          -151,
+          0,
+          150
+        ],
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789184820200-12-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184820200-12-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184820200-12-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789184795859-11-1",
+      "name": "L-con-grp copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          171,
+          0
+        ],
+        "rotation": [
+          -7.016709298534876e-15,
+          -7.016709298534876e-15,
+          -180
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789184795859-11-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184795859-11-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184795859-11-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789184657327-10-1",
+      "name": "L-con-grp copy copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          -180,
+          -7.016709298534876e-15,
+          -180
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789184657327-10-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184657327-10-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184657327-10-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-copy-1789184549498-9-1",
+      "name": "L-con-grp copy",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          151,
+          0,
+          -150
+        ],
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-copy-1789184549498-9-2",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184549498-9-3",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184549498-9-4",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-1789184489697-8",
+      "name": "L-con-grp",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          171,
+          0
+        ],
+        "rotation": [
+          180,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "lConnector3030-1789184175602-5",
+          "name": "lConnector3030-5",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -402,
+              31,
+              205
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184281128-6-1",
+          "name": "lConnector3030-5 copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -354,
+              31,
+              251
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        },
+        {
+          "id": "lConnector3030-copy-1789184420858-7-1",
+          "name": "lConnector3030-5 copy copy",
+          "type": "lConnector3030",
+          "visible": true,
+          "transform": {
+            "position": [
+              -355,
+              -16,
+              205
+            ],
+            "rotation": [
+              90,
+              1.2722218725854067e-14,
+              -89.99999999999999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            85,
+            85,
+            3
+          ],
+          "material": {
+            "color": "#808080",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "group-1789188380474-1",
+      "name": "aluminum extrusions",
+      "type": "group",
+      "visible": true,
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "children": [
+        {
+          "id": "sandbox-1789182611198-3-11",
+          "name": "Top north aluminum extrusion",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              0,
+              170,
+              -235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            800,
+            30,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-12",
+          "name": "Top south aluminum extrusion",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              0,
+              170,
+              235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            800,
+            30,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-13",
+          "name": "Top west aluminum extrusion",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              -385,
+              170,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            30,
+            440
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-14",
+          "name": "Top east aluminum extrusion",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              385,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            30,
+            440
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-15",
+          "name": "Northwest aluminum post",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              -385,
+              85,
+              -235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            140,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-16",
+          "name": "Northeast aluminum post",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              384,
+              85,
+              -234
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            140,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-17",
+          "name": "Southwest aluminum post",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              -385,
+              85,
+              235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            140,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "aluminumExtrusion-copy-1789183083092-10-1",
+          "name": "Bottom east aluminum extrusion copy",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              385,
+              170,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            30,
+            440
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "aluminumExtrusion-copy-1789183069405-9-1",
+          "name": "Bottom south aluminum extrusion copy",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              0,
+              0,
+              235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            800,
+            30,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "aluminumExtrusion-copy-1789183061826-8-1",
+          "name": "Bottom west aluminum extrusion copy",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              -385,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            30,
+            440
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "aluminumExtrusion-copy-1789183052889-7-1",
+          "name": "Bottom north aluminum extrusion copy",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              0,
+              0,
+              -235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            800,
+            30,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        },
+        {
+          "id": "sandbox-1789182611198-3-18",
+          "name": "Southeast aluminum post",
+          "type": "aluminumExtrusion",
+          "visible": true,
+          "moduleId": "SANDBOX",
+          "transform": {
+            "position": [
+              385,
+              85,
+              235
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "dimensions": [
+            30,
+            140,
+            30
+          ],
+          "material": {
+            "color": "#c7cdd0",
+            "emissiveIntensity": 0,
+            "opacity": 1,
+            "surface": "metal",
+            "textureSeed": 130
+          }
+        }
+      ]
+    }
+  ]
+}
